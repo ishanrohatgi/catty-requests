@@ -26,7 +26,7 @@ const handleClose = () => {
 };
 return (
     <div className="App">
-      <div className='navbar'><h1>Cat Requests</h1>
+      <div className='navbar'><h1>{"<"}Cat Requests{"/>"}</h1>
       <img src={navBarCat} alt='a cat'></img></div>
       <div className='objective'>
         <h4>Catty will tell you the meaning of different status codes retured by an api.</h4>
