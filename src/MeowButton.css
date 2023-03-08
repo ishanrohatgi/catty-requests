@@ -3,10 +3,11 @@
     width: 150px;
     text-align: center;
     border-radius: 50px;
-    position: relative;
-    top:50px;
-    margin-left:20px;
+    position: absolute;
+    top:58px;
+    right: 0px;
     color: rgb(0, 0, 0);
     -webkit-text-stroke: 1px rgb(214, 133, 214);
     font-weight: 700;
+    z-index: 1;
    }

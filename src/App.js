@@ -33,11 +33,11 @@ const handleClose = () => {
 return (
     <div className="App">
       <div className='navbar'><h1>{"<"}Cat Requests{"/>"}</h1>
-      <img src={navBarCat} alt='a cat'></img></div>
+      <img src={navBarCat} alt='a cat'></img>
+      <MeowButton setMeowSound={setMeowSound}/></div>
       <div className='objective'>
         <h4>Catty will tell you the meaning of different status codes retured by an api.</h4>
       </div>
-      <MeowButton setMeowSound={setMeowSound}/>
       <div className='cat-codes'>
       {status.map((item, index) => (
         <div  onClick={(event)=>{event.stopPropagation(); handleClickOpen(item)}} className={`item-div ${`item-color-${item.toString()[0]}00`}`} key={index}><h2>
