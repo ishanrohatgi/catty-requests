@@ -19,6 +19,7 @@ body {
   top:0px;
   width: 100vw;
   z-index: 10;
+  border-bottom:1px solid black;
 }
 
 .navbar>h1{
@@ -71,7 +72,7 @@ body {
   background-color:rgb(221, 136, 211) ;
  }
  .item-color-300{
-  background-color:rgb(223, 103, 209) ;
+  background-color:rgb(230, 112, 216) ;
  }
  .item-color-400{
   background-color:rgb(216, 98, 202) ;

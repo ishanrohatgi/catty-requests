@@ -10,4 +10,5 @@
     -webkit-text-stroke: 1px rgb(214, 133, 214);
     font-weight: 700;
     z-index: 1;
+    border-bottom:2px solid black;
    }
